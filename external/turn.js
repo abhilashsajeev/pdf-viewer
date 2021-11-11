@@ -31,6 +31,7 @@ var has3d,
 
 	isTouch = 'Touch' in window,
 
+	alert("IS Touch Enabled? ", isTouch);
 	events = (isTouch) ? {start: 'touchstart', move: 'touchmove', end: 'touchend'}
 			: {start: 'mousedown', move: 'mousemove', end: 'mouseup'},
 
