@@ -235,7 +235,7 @@ turnMethods = {
 	// $('#selector').turn([options]);
 
 	init: function(opts) {
-		alert(`IS Touch Enabled?  ${$.isTouch}`);
+		console.log(`IS Touch Enabled?  ${$.isTouch}`);
 
 		// Define constants
 		if (has3d===undefined) {
