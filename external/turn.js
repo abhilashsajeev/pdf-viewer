@@ -31,7 +31,7 @@ var has3d,
 
 	isTouch = 'Touch' in window,
 
-	alert("IS Touch Enabled? ", isTouch);
+
 	events = (isTouch) ? {start: 'touchstart', move: 'touchmove', end: 'touchend'}
 			: {start: 'mousedown', move: 'mousemove', end: 'mouseup'},
 
@@ -235,6 +235,7 @@ turnMethods = {
 	// $('#selector').turn([options]);
 
 	init: function(opts) {
+		alert(`IS Touch Enabled?  ${$.isTouch}`);
 
 		// Define constants
 		if (has3d===undefined) {
