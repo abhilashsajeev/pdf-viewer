@@ -17,6 +17,14 @@
  * 
  **/
 
+/**
+* Additional Modification improving touch interface done by Abhilash A S  github.com/abhilashsajeev
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted provided that the following conditions
+* are met: 
+* Source Code Shoud contains This Comment Mentioning The Code modifier.
+*/
+
 (function($) {
 
 'use strict';
