@@ -15503,6 +15503,7 @@ function renderProgress(index, total, l10n) {
 }
 
 var hasAttachEvent = !!document.attachEvent;
+window.__sign  = "Y29uc29sZS5sb2coJyVjRGV2ZWxvcGVkIGJ5IKkgQWJoaWxhc2ggQSBTICcsICdwYWRkaW5nOiAwLjNyZW0gMS41cmVtOyBmb250LWZhbWlseTogUm9ib3RvOyBmb250LXNpemU6IDEuMmVtOyBsaW5lLWhlaWdodDogMS40ZW07IGNvbG9yOiB3aGl0ZTsgYmFja2dyb3VuZDogcmdiKDEzMSw1OCwxODApOyBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoOTBkZWcsIHJnYmEoMTMxLDU4LDE4MCwxKSAwJSwgcmdiYSgyNTMsMjksMjksMSkgNTAlLCByZ2JhKDI1MiwxNzYsNjksMSkgMTAwJSk7IGJvcmRlci1yYWRpdXM6IDhweDsnKTs=";
 window.addEventListener('keydown', function (event) {
   if (event.keyCode === 80 && (event.ctrlKey || event.metaKey) && !event.altKey && (!event.shiftKey || window.chrome || window.opera)) {
     window.print();

